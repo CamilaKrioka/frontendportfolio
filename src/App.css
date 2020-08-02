@@ -32,11 +32,12 @@ body {
 }
 /*Header*/
 .text-typing {
-  animation: type 1s steps(52);
+  animation: type 1s steps(52) forwards;
   overflow: hidden;
   white-space: nowrap;
   font-size: 2.5rem;
   font-weight: bold;
+  
 }
 
 @keyframes type {
